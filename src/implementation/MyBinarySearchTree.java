@@ -13,6 +13,7 @@ public class MyBinarySearchTree<E extends Comparable<E>> implements BinarySearch
             root = node;
         }
         else{
+
             Node<E> temp = root;
             Node<E> parent = null;
             while(temp!=null){
