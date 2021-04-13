@@ -8,4 +8,5 @@ public interface Node<E extends Comparable<E>> {
     public Node getRight();
     public void setLeft(Node left);
     public void setRight(Node right);
+
 }
